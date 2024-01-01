@@ -52,7 +52,7 @@ if __name__ == "__main__":
     combined_shape = align_and_combine_step_files(step_files, 0.95)
 
     # Export to a new STEP file
-    output_file = 'combined_objects.step'
+    output_file = 'combined.step'
     write_step_file(combined_shape, output_file)
     display, start_display, add_menu, add_function_to_menu = init_display()
     start_display()
